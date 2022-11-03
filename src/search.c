@@ -7,7 +7,7 @@ bool search(int a[], int n, int x) //finding integer "x" in array "a" witht he l
     {
         return true;
     }
-    else if (n>0 && a[n-1]!= x) //recursive step
+    else if (n>0 && a[n-1] != x) //recursive step
     {
         return search(a, n-1, x);
     }
